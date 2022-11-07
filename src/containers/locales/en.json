@@ -1,0 +1,95 @@
+{
+  "common": {
+    "key": "en",
+    "theme": "Theme",
+    "darkTheme": "Dark Theme",
+    "language": "Language",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "ok": "OK",
+    "done": "Done",
+    "noInternet": "No internet",
+    "continue": "Continue",
+    "save": "Save",
+    "version": "Version",
+    "dateFormat": "MMM DD, YYYY",
+    "timeFormat": "hh:mm A",
+    "submit": "Submit",
+    "submitSuccess": "Submission successful",
+    "submitFail": "Submission failed",
+    "confirmation": "Confirmation",
+    "welcome": "Welcome",
+    "detail": "Detail",
+    "loading": "Loading"
+  },
+  "languageKey": {
+    "en": "English"
+  },
+  "component": {
+    "input": {
+      "defaultLabel": "Info",
+      "input": "Input {{field}}",
+      "invalid": "{{field}} is not valid",
+      "searchPlaceholder": "Type here..."
+    }
+  },
+  "exception": {
+    "400": "Invalid Input. Please check again",
+    "401": "Email or password is incorrect",
+    "403": "Forbidden",
+    "404": "Cannot find Item",
+    "405": "Method Not Allowed",
+    "408": "Request time out! Please try again",
+    "429": "You have sent too many requests in a given amount of time. Please try again later",
+    "500": "Something went wrong. Please try again later",
+    "502": "The server is under maintenance. Please try again later",
+    "503": "Service Unavailable. Please try again later"
+  },
+  "field": {
+    "spendingLimit": "Spending limit"
+  },
+  "validator": {
+    "required": "{{field}} is required",
+    "invalid": "Invalid {{field}}",
+    "min": "{{remain}} characters to go",
+    "max": "{{field}} cannot be longer than {{max}} characters",
+    "tooShort": "Too short!",
+    "notMatch": "Passwords do not match",
+    "invalidEmail": "Invalid email",
+    "isString": "{{field}} must be a string",
+    "isNumber": "{{field}} must be a number",
+    "isDatetime": "{{field}} must be a datetime",
+    "isObject": "{{field}} must be an object",
+    "greaterThan": "{{field}} must be greater than {{value}}",
+    "lessThan": "{{field}} must be less than {{value}}"
+  },
+  "bottomTab": {
+    "home": "Home",
+    "debitCard": "Debit card",
+    "payments": "Payments",
+    "credit": "Credit",
+    "profile": "Profile"
+  },
+  "debitCard": {
+    "debitCard": "Debit Card",
+    "availableBalance": "Available balance",
+    "hideCardNumber": "Hide card number",
+    "showCardNumber": "Show card number",
+    "thru": "Thru",
+    "cvv": "CVV",
+    "topUpAccount": "Top-up account",
+    "topUpAccountDesc": "Deposit money to your account to use with card",
+    "weeklySpendingLimit": "Weekly spending limit",
+    "noWeeklySpendingLimitDesc": "You haven’t set any spending limit on card",
+    "freezeCard": "Freeze card",
+    "noFreezeCardDesc": "Your debit card is currently active",
+    "newCard": "Get a new card",
+    "newCardDesc": "This deactivates your current debit card",
+    "deactivatedCards": "Deactivated cards",
+    "noDeactivatedCardsDesc": "Your previously deactivated cards"
+  },
+  "weeklyLimit": {
+    "setLimit": "Set a weekly debit card spending limit",
+    "setLimitDesc": "Here weekly means the last 7 days - not the calendar week"
+  }
+}

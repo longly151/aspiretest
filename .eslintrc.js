@@ -1,0 +1,43 @@
+module.exports = {
+  root: true,
+  extends: [
+    '@react-native-community',
+    'plugin:prettier/recommended',
+    'plugin:testing-library/react',
+  ],
+  parser: '@typescript-eslint/parser',
+  plugins: [
+    '@typescript-eslint',
+    'only-warn',
+    'eslint-plugin-import',
+    'testing-library',
+  ],
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        '@typescript-eslint/no-shadow': ['error'],
+        'no-shadow': 'off',
+        'no-undef': 'off',
+        'no-console': 'warn',
+        'max-classes-per-file': 'warn',
+        'react-native/no-inline-styles': 'off',
+        'react/jsx-curly-brace-presence': 'error',
+        'react/jsx-closing-bracket-location': 'error',
+        'import/no-duplicates': 'error',
+        'no-useless-rename': 'error',
+        'import/first': 'error',
+        'import/prefer-default-export': 'error',
+        'arrow-body-style': ['error', 'as-needed'],
+        'no-unused-expressions': 'error',
+        'import/no-cycle': 'error',
+        'prefer-destructuring': 'error',
+        'prefer-const': 'error',
+        'react/destructuring-assignment': 'error',
+        'testing-library/prefer-screen-queries': 'off',
+        'object-shorthand': 'error',
+        '@typescript-eslint/quotes': ['error', 'single'],
+      },
+    },
+  ],
+};
