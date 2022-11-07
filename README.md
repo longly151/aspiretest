@@ -16,7 +16,7 @@ As a customer, I want to:
 - Set my weekly spending limit, so that I can control my spending better
 - Remove my weekly spending limit so I could use up my account balance
 
-## Outstanding implements in the source code
+## Outstanding features in the source code
 
 - Fully support `tailwindcss` to make coding styles for components become neater and simpler than ever
 - State management with `redux-toolkit`, with the aim of keeping the code syntax concise and optimized
